@@ -26,6 +26,8 @@ app.use(
       process.env.CLIENT_URL || "http://localhost:5173",
       "http://localhost:5173",
       "http://localhost:5174",
+      "https://packify-frontend.vercel.app",
+      "https://packify-dashboard.vercel.app",
     ],
     credentials: true,
   })
